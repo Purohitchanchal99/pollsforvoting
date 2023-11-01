@@ -1,0 +1,23 @@
+html, body {
+    height:40%;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  html {
+     background-image: url('../img/R.jpeg');
+    background-size: 500% ; 
+    /* background-image: url('../img/addpoll.jpg'); */
+    /* background-size: 500px 100px; /* Set the width and height values as per your requirements */
+
+    background-repeat: no-repeat; 
+
+     
+}
+body {
+    background: rgba(0, 0, 0, 0.466);
+}
+#home-content{
+    text-align: center;
+    padding-top: 20%;
+}
