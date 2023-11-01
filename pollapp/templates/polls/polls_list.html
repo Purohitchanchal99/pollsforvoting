@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 offset-sm-2">
-            <h1 class="text-center mb-5">cast your vote!</h1>
+            <h1 class="text-center mb-5">choose your side!</h1>
             {% if messages %}
             <div class="messages">
                 {% for message in messages %}
@@ -21,16 +21,22 @@
             </div>
             {% endif %}
 
-      <a class="btn btn-primary mb-3 float" href="{% url 'pollapp:add' %}" role="button">Admin <i class="fas fa-plus"></i></a>
-        
+      
             
         
             
-           
+      <div class="d-flex justify-content-center align-items-center" style="height: 5vh;">
+        <a class="btn btn-primary" href="{% url 'pollapp:add' %}" role="button">Admin <i class="fas fa-plus"></i></a>
+      </div>
+      
 
-     <a class="btn btn-primary mb-3 float" href="{% url 'pollapp:user' %}" role="button">user <i class="fas fa-plus"></i></a>
+     
 
-            
+     <div class="d-flex justify-content-center align-items-center" style="height: 10vh;">
+        <a class="btn btn-primary mt-3" href="{% url 'pollapp:user' %}" role="button">User <i class="fas fa-plus"></i></a>
+        
+      </div>
+      
 
 </nav> 
 </div>
